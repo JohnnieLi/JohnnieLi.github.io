@@ -2,17 +2,16 @@
 This is empty on purpose! Your code to build the resume will go here.
  */
 var contactInfo = {
-  "email": "liujian81@gmail.com",
-  "phone": "613-263-8768",
-  "github": '<a id ="link" href="https://github.com/jian6">jian6</a>',
+  "email": "jiangqi2015@outlook.com",
+  "phone": "613-252-8467",
+  "github": '<a id ="link" href="https://github.com/JohnnieLi">JohnnieLi/a>',
   "location": "Ottawa, Ontario, Canada"
 };
 var skills = [
-           "Java      : JavaSE, JavaFX, Swing, Jsoup, Junit",
-           "Web       : HTML, CSS, Bootstrap, Javascript, jQuery, Python(Flask), Node.js, PHP",
-           "Framework : FLASK, Express.js",
-           "Data      : SQL, MySQL, SQL Server, Oracle, Mongodb, ORM",
-           "API       : JSON, XML, Restful",
+           "Java      : JavaSE, JavaFX, Swing, Jsoup, Junit, HttpClient,",
+           "Web       : HTML, CSS, Javascript, jQuery, PHP",
+           "Framework : konw Spring",
+           "Data      : SQL, MySQL, SQL Server, Oracle",
            "Knowledge : Data Structures, OOP Concepts, Computer Networks",
 
 ]
@@ -20,7 +19,7 @@ var skills = [
 
 
 var bio = {
-  "name": "Jian Liu",
+  "name": "Jiangqi Li",
   "role": "Passionate Coder / Programming Student ",
   "contacts": contactInfo,
   "picture": "images/me.jpg",
@@ -31,43 +30,34 @@ var bio = {
 var work = {
   "jobs":
   [
-    {"position": "Web Developer",
-    "employer": "IBZ Chengdu",
-    "years": "Aug, 2014 - Jan, 2015",
-    "location": "Work in Distance",
-    "description": "IBZ is the official language training center of the University of Duisburg-Essen.<br>I participated in the "+
-                  "development of the website of one of their branches in China using HTML, CSS and Javascript.<br>I was also " +
-                  "in charge of updating and maintaining the contents of the website."
+    {"position": "Tutor",
+    "employer": "Algonquin College",
+    "years": "Jan, 2016 - parent",
+    "location": "Ottawa, Canada",
+    "description":"Helped students familiar with basic programming knowledge, such as Java, JavaScript, CSS, HTML5 and some design patterns"+
+                  "<br>Introduced some coding skills through Labs and Assignments task.<br>I was also " +
+                  "recommended some valuable online courses or references for tutees depend on their personal requirements."
     },
-    {"position": "Software Developer",
-    "employer": "IBZ Chengdu",
-    "years": "Jun, 2014",
-    "location": "Chengdu, China",
-    "description": "Developed a courier-tracking system for the school’s administration, using node.js, express.js and mongodb.<br>"+
-                   "Implemented a secured API for show/create/edit of package infomation using express.js.<br>"+
-                   "Implemented the server-side routing and middleware using express.js and http request.<br>"+
-                   "Implemented data persistence using Mongodb and its ODM mongoose.<br>"+
-                   "Parsed JSON from an external courier status API."
+    {"position": "Clerk",
+    "employer": "HanSeng trade CO.,Ltd",
+    "years": "June, 2013",
+    "location": "NanJing, China",
+    "description": "Managed accounts payable, accounts receivable and tax information in a team.<br>"+
+                   "Make  deposits and file documents.<br>"+
+                   "Recorded invoices and prepared monthly forecast of each flow, sales and expenses, set up.<br>"+
+                   "quarterly/annual expense budgets for sales and marketing teams."
     },
-    {"position": "Business Development Associate",
-    "employer": "Leno Media Group",
-    "years": "Jun, 2010 - Jan, 2012",
-    "location": "Chengdu, China",
-    "description": "I was responsible for client relations and new business opportunities explorations. I also wrote marketing plans "+
-                   "for the new opportunites. Furthermore, I planned and oversaw events and conferences for our clients.<br>"+
-                   "Collaborated with 2 other team members to complete several large-scale events from scratch,<br> "+
-                   "which generated several million Chinese Yuan’s profits."
-
+    {"position": "Project manager",
+    "employer": "QiHang simulation company",
+    "years": "Jun, 2012- Jun, 2013",
+    "location": "ShaoXing, China",
+    "description": "Searched for student training programs.<br>"+
+                   "Helped students know about certification testing, managed and student reservation and"+
+                   "waiting list, completed transaction using handled payments(cash, debit card) with great accuracy.<br> "+
+                   "Organized events with a team."
     },
-    {"position": "eCommerce Specialist",
-    "employer": "Crystal Techonology",
-    "years": "Sep, 2007 - Apr, 2010",
-    "location": "Chengdu, China",
-    "description": "Managed the company’s e-commerce affairs, including customizing the sales platform using HTML and CSS, "+
-                   "its maintenance and update, and boosting company’s internet presence in order to attract new customers.<br>"+
-                   "Analyzed the company’s requirement for sales platform, and worked with developers from Alibaba to implement it.<br>"+
-                   "Successfully attracted several overseas clients by using the newly designed sales platform."
-    }
+    
+    
   ]
 };
 var education = {
@@ -80,35 +70,37 @@ var education = {
     "url": "http://www.algonquincollege.ca",
     "location": "Ottawa, Ontario, Canada"
     },
-    {"school": "Concordia University",
-    "degree": "Bachelor of Computer Science",
-    "major": ["Information System"],
-    "years": "Sep. 2012 - May 2015",
-    "url": "http://www.concordia.ca",
-    "location": "Montreal, Quebec, Canada"
+    {"school": "ShaoXing University",
+    "degree": "Bachelor of Accounting Management",
+    "major": ["Accounting"],
+    "years": "Sep. 2010 - May 2014",
+    "location": "ShaoXing, China"
     }
   ]
 };
 var project = {
   "projects":
   [
-    {"title": "Microblog Application",
-     "dates": "2015",
-     "description": "Written in Python with FLASK and SQLAlchemy.<br>"+
-                    "Developed the backend of the application using Python and its Flask framework.<br>"+
-                    "Developed the frontend of the application using HTML, Bootstrap, Javascript.<br>"+
-                    "Implemented the database using ORM (SQLAlchemy) and SQLite.<br>"+
-                    "Implemented the functionalities of user authentication, login/logout, internationalization, and etc." ,
-     "image":["images/bloghome.png", "images/bloglogin.png", "images/profile.png", "images/edit.png"]
+    {"title": "Java Swing Applet: Shannons Theorem",
+     "dates": "2016",
+     "description": "Implementation of a common communication theorem (Shannons's Theorem for Maximum data rate of a channel)<br>"+
+                    "Analysis and design:UML class diagram, UML sequence diagram.<br>"+
+                    "Implementation: Using MVC design pattern to implement Shannon's Theorem to compute the Capacity"+
+                    " C (Maximum data rate), of a communications channel, given the bandwidth B, and signal_to_noise Ratio SNR.<br>"+
+                    "Test: Tesing with Junit test.<br>",
+                  
+     "image":["images/MVCsample.png"]
     },
-    {"title": "Restaurant Information Restful API",
-     "dates": "2015",
-     "description": "Written in Python, using Foursquare API, GoogleMap API.<br>"+
-                    "Built a Restful API in Python that searches restaurants information based on given location and restaurant type.<br>"+
-                    "Parsed JSON result from GoogleMap API and foursquare API.<br>"+
-                    "Implemented Restful functionalities for GET/POST/PUT/DELETE using Flask framework." ,
-     "image": []
+    
+    {"title": "Android App: MyNotes",
+     "dates": "2016",
+     "description": "Analysis: UML diagram"+
+                    "Written in Java, XML. Using Android studio.<br>"+
+                    "Implemented database to store notes with SQlite<br>"+
+                    "Test: Installed in real android devidce and check functions",
+     "image": ["images/home.jpg", "images/delete.jpg", "addNotes.jpg"]
      },
+     
      {"title": "Restaurant Homepage",
       "dates": "2015",
       "description": "Written in HTML and PHP. Database: MYSQL. <br>"+
