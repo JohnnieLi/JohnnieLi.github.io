@@ -4,7 +4,7 @@ This is empty on purpose! Your code to build the resume will go here.
 var contactInfo = {
   "email": "jiangqi2015@outlook.com",
   "phone": "613-252-8467",
-  "github": '<a id ="link" href="https://github.com/JohnnieLi">JohnnieLi/a>',
+  "github": '<a id ="link" href="https://github.com/JohnnieLi">JohnnieLi</a>',
   "location": "Ottawa, Ontario, Canada"
 };
 var skills = [
@@ -98,7 +98,7 @@ var project = {
                     "Written in Java, XML. Using Android studio.<br>"+
                     "Implemented database to store notes with SQlite<br>"+
                     "Test: Installed in real android devidce and check functions",
-     "image": ["images/home.jpg", "images/delete.jpg", "addNotes.jpg"]
+     "image": ["images/home.jpg", "images/delete.jpg", "images/addNotes.jpg"]
      },
      
      {"title": "Restaurant Homepage",
