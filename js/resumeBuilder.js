@@ -4,7 +4,7 @@ This is empty on purpose! Your code to build the resume will go here.
 var contactInfo = {
   "email": "jiangqi2015@outlook.com",
   "phone": "613-252-8467",
-  "github": '<a id ="link" href="https://github.com/JohnnieLi">JohnnieLi</a>',
+  "github": '<a id ="link" href="https://github.com/JohnnieLi">JohnnieLi </a>',
   "location": "Ottawa, Ontario, Canada"
 };
 var skills = [
